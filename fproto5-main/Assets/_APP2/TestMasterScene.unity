@@ -737,7 +737,7 @@ MonoBehaviour:
   stopMappingAfterSnap: 1
   destroyMeshesOnStop: 1
   hidePlanesOnStop: 1
-  bootstrap: {fileID: 1234426861}
+  bootstrap: {fileID: 0}
   subscribeToMlLocalizationEvent: 1
 --- !u!1001 &741069508
 PrefabInstance:
@@ -968,6 +968,7 @@ GameObject:
   - component: {fileID: 954346514}
   - component: {fileID: 954346513}
   - component: {fileID: 954346512}
+  - component: {fileID: 954346516}
   m_Layer: 0
   m_Name: SignAnchor
   m_TagString: Untagged
@@ -1065,6 +1066,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954346510}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &954346516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954346510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 3757593151
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours: []
+  ForceRemoteRenderTimeframe: 0
 --- !u!1 &1029167331
 GameObject:
   m_ObjectHideFlags: 0
